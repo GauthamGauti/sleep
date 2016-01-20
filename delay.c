@@ -8,7 +8,7 @@ int main()
     for (delay= 0; c[delay] != '\0'; delay++)
     {
         printf("%c", c[delay]);
-        Sleep(100);
+        Sleep(300);
     }
     return 0;
 }
